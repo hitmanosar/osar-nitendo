@@ -1,0 +1,35 @@
+body {
+    font-family: -apple-system;
+}
+
+#navbar {
+    background: #E70012;
+}
+
+#navbar-nav a:hover {
+    background-color: red;
+}
+
+.btn {
+    border: #E70012 1px solid;
+    background-color: #E70012;
+    color: white;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.social {
+    background-color: #E70012;
+}
+
+#pillproduct {
+    color: #E70012;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-image {
+        width: 470px;
+    }
+}

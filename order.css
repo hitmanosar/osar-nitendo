@@ -1,0 +1,79 @@
+.each_container{
+    width: 70vw;
+    height: auto;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 50px 20px 50px 20px;
+    border-radius: 20px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+  
+
+.each_detail{
+ width: 40vw;
+ height: auto;
+  color: white;
+ word-spacing: 2px;
+ font-size: 20px;
+ 
+}
+
+
+
+.each_image_show{
+ width: 50vw;
+ height: auto;
+ border-radius: 20px;
+}
+
+
+hr {
+ background-color: White;
+  height: 1px;
+  
+}
+
+
+#btview{
+    padding: 7px 60px 7px 60px;
+    background-color: white;
+    color: blue;
+    transition: all 0.8s;
+}
+
+
+#btview:hover{
+     transform: scale(1.2);
+    background-color: black;
+    color: pink;
+}
+
+
+
+.each_span{
+    color: yellow;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+input[type="text"]{
+    width: 40vw;
+    height: auto;
+}
